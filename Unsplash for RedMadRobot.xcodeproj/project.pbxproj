@@ -1,0 +1,511 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		49B9A71F981376C7428284DF /* Pods_Unsplash_for_RedMadRobot.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5EFA2CC66C8360B99006CD2B /* Pods_Unsplash_for_RedMadRobot.framework */; };
+		55B0B4A923C65FFF004B94B6 /* LikesCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55B0B4A823C65FFF004B94B6 /* LikesCollectionViewCell.swift */; };
+		55B0B4AD23C6674D004B94B6 /* UIKit + Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55B0B4AC23C6674D004B94B6 /* UIKit + Extension.swift */; };
+		55CECA4C23B635A200DF8CEA /* NetworkDataFetcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55CECA4B23B635A200DF8CEA /* NetworkDataFetcher.swift */; };
+		55CECA4E23B6365500DF8CEA /* SearchResults.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55CECA4D23B6365500DF8CEA /* SearchResults.swift */; };
+		55CFE25C23B5EC16003D5DAE /* LikesCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55CFE25B23B5EC16003D5DAE /* LikesCollectionViewController.swift */; };
+		55CFE25E23B5F38F003D5DAE /* NetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55CFE25D23B5F38F003D5DAE /* NetworkService.swift */; };
+		55E448AC23B3A74E00B7EB70 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55E448AB23B3A74E00B7EB70 /* AppDelegate.swift */; };
+		55E448AE23B3A74E00B7EB70 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55E448AD23B3A74E00B7EB70 /* SceneDelegate.swift */; };
+		55E448B023B3A74E00B7EB70 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55E448AF23B3A74E00B7EB70 /* ViewController.swift */; };
+		55E448B323B3A74E00B7EB70 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 55E448B123B3A74E00B7EB70 /* Main.storyboard */; };
+		55E448B523B3A75400B7EB70 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 55E448B423B3A75400B7EB70 /* Assets.xcassets */; };
+		55E448B823B3A75400B7EB70 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 55E448B623B3A75400B7EB70 /* LaunchScreen.storyboard */; };
+		55E448C023B3A86D00B7EB70 /* NetworkServiceDailyPhoto.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55E448BF23B3A86D00B7EB70 /* NetworkServiceDailyPhoto.swift */; };
+		55E448C223B3F49100B7EB70 /* PhotosCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55E448C123B3F49100B7EB70 /* PhotosCollectionViewController.swift */; };
+		55E448C523B3F56600B7EB70 /* MainTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55E448C423B3F56600B7EB70 /* MainTabBarController.swift */; };
+		55E448C823B4E52A00B7EB70 /* PhotosCollectionsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55E448C723B4E52A00B7EB70 /* PhotosCollectionsViewController.swift */; };
+		55F9FE0E23B6548100315361 /* PhotosCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55F9FE0D23B6548100315361 /* PhotosCell.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		08E6ED32233F10AA79F6C295 /* Pods-Unsplash for RedMadRobot.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Unsplash for RedMadRobot.release.xcconfig"; path = "Target Support Files/Pods-Unsplash for RedMadRobot/Pods-Unsplash for RedMadRobot.release.xcconfig"; sourceTree = "<group>"; };
+		55B0B4A823C65FFF004B94B6 /* LikesCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LikesCollectionViewCell.swift; sourceTree = "<group>"; };
+		55B0B4AC23C6674D004B94B6 /* UIKit + Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIKit + Extension.swift"; sourceTree = "<group>"; };
+		55CECA4B23B635A200DF8CEA /* NetworkDataFetcher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkDataFetcher.swift; sourceTree = "<group>"; };
+		55CECA4D23B6365500DF8CEA /* SearchResults.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchResults.swift; sourceTree = "<group>"; };
+		55CFE25B23B5EC16003D5DAE /* LikesCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LikesCollectionViewController.swift; sourceTree = "<group>"; };
+		55CFE25D23B5F38F003D5DAE /* NetworkService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkService.swift; sourceTree = "<group>"; };
+		55E448A823B3A74E00B7EB70 /* Unsplash for RedMadRobot.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Unsplash for RedMadRobot.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		55E448AB23B3A74E00B7EB70 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		55E448AD23B3A74E00B7EB70 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		55E448AF23B3A74E00B7EB70 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		55E448B223B3A74E00B7EB70 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		55E448B423B3A75400B7EB70 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		55E448B723B3A75400B7EB70 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		55E448B923B3A75400B7EB70 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		55E448BF23B3A86D00B7EB70 /* NetworkServiceDailyPhoto.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkServiceDailyPhoto.swift; sourceTree = "<group>"; };
+		55E448C123B3F49100B7EB70 /* PhotosCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotosCollectionViewController.swift; sourceTree = "<group>"; };
+		55E448C423B3F56600B7EB70 /* MainTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabBarController.swift; sourceTree = "<group>"; };
+		55E448C723B4E52A00B7EB70 /* PhotosCollectionsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotosCollectionsViewController.swift; sourceTree = "<group>"; };
+		55F9FE0D23B6548100315361 /* PhotosCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotosCell.swift; sourceTree = "<group>"; };
+		5EFA2CC66C8360B99006CD2B /* Pods_Unsplash_for_RedMadRobot.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Unsplash_for_RedMadRobot.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9FBF6DF7015D59A70D8C8849 /* Pods-Unsplash for RedMadRobot.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Unsplash for RedMadRobot.debug.xcconfig"; path = "Target Support Files/Pods-Unsplash for RedMadRobot/Pods-Unsplash for RedMadRobot.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		55E448A523B3A74E00B7EB70 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				49B9A71F981376C7428284DF /* Pods_Unsplash_for_RedMadRobot.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		55B0B4A723C65F5D004B94B6 /* Photos */ = {
+			isa = PBXGroup;
+			children = (
+				55E448C123B3F49100B7EB70 /* PhotosCollectionViewController.swift */,
+				55F9FE0D23B6548100315361 /* PhotosCell.swift */,
+			);
+			path = Photos;
+			sourceTree = "<group>";
+		};
+		55B0B4AA23C66007004B94B6 /* Likes */ = {
+			isa = PBXGroup;
+			children = (
+				55CFE25B23B5EC16003D5DAE /* LikesCollectionViewController.swift */,
+				55B0B4A823C65FFF004B94B6 /* LikesCollectionViewCell.swift */,
+			);
+			path = Likes;
+			sourceTree = "<group>";
+		};
+		55B0B4AB23C6601A004B94B6 /* Collection */ = {
+			isa = PBXGroup;
+			children = (
+				55E448C723B4E52A00B7EB70 /* PhotosCollectionsViewController.swift */,
+			);
+			path = Collection;
+			sourceTree = "<group>";
+		};
+		55B0B4AE23C66766004B94B6 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				55B0B4AC23C6674D004B94B6 /* UIKit + Extension.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		55CECA4F23B636C700DF8CEA /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				55CECA4D23B6365500DF8CEA /* SearchResults.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		55DDEE0423B6408D0028BAF2 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				55B0B4A723C65F5D004B94B6 /* Photos */,
+				55B0B4AB23C6601A004B94B6 /* Collection */,
+				55B0B4AA23C66007004B94B6 /* Likes */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		55E4489F23B3A74E00B7EB70 = {
+			isa = PBXGroup;
+			children = (
+				55E448AA23B3A74E00B7EB70 /* Unsplash for RedMadRobot */,
+				55E448A923B3A74E00B7EB70 /* Products */,
+				89D944CA8F5C757C805FBC0F /* Pods */,
+				8DE850061E8267F2D36CC7AD /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		55E448A923B3A74E00B7EB70 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				55E448A823B3A74E00B7EB70 /* Unsplash for RedMadRobot.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		55E448AA23B3A74E00B7EB70 /* Unsplash for RedMadRobot */ = {
+			isa = PBXGroup;
+			children = (
+				55E448AB23B3A74E00B7EB70 /* AppDelegate.swift */,
+				55E448AD23B3A74E00B7EB70 /* SceneDelegate.swift */,
+				55E448AF23B3A74E00B7EB70 /* ViewController.swift */,
+				55E448C423B3F56600B7EB70 /* MainTabBarController.swift */,
+				55E448C323B3F53D00B7EB70 /* Network */,
+				55DDEE0423B6408D0028BAF2 /* ViewControllers */,
+				55B0B4AE23C66766004B94B6 /* Helpers */,
+				55E448B123B3A74E00B7EB70 /* Main.storyboard */,
+				55E448B423B3A75400B7EB70 /* Assets.xcassets */,
+				55E448B623B3A75400B7EB70 /* LaunchScreen.storyboard */,
+				55E448B923B3A75400B7EB70 /* Info.plist */,
+			);
+			path = "Unsplash for RedMadRobot";
+			sourceTree = "<group>";
+		};
+		55E448C323B3F53D00B7EB70 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				55E448BF23B3A86D00B7EB70 /* NetworkServiceDailyPhoto.swift */,
+				55CFE25D23B5F38F003D5DAE /* NetworkService.swift */,
+				55CECA4B23B635A200DF8CEA /* NetworkDataFetcher.swift */,
+				55CECA4F23B636C700DF8CEA /* Model */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		89D944CA8F5C757C805FBC0F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9FBF6DF7015D59A70D8C8849 /* Pods-Unsplash for RedMadRobot.debug.xcconfig */,
+				08E6ED32233F10AA79F6C295 /* Pods-Unsplash for RedMadRobot.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		8DE850061E8267F2D36CC7AD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5EFA2CC66C8360B99006CD2B /* Pods_Unsplash_for_RedMadRobot.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		55E448A723B3A74E00B7EB70 /* Unsplash for RedMadRobot */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 55E448BC23B3A75400B7EB70 /* Build configuration list for PBXNativeTarget "Unsplash for RedMadRobot" */;
+			buildPhases = (
+				B9D406220A7616C9FB2CE584 /* [CP] Check Pods Manifest.lock */,
+				55E448A423B3A74E00B7EB70 /* Sources */,
+				55E448A523B3A74E00B7EB70 /* Frameworks */,
+				55E448A623B3A74E00B7EB70 /* Resources */,
+				719D6F64FA96BFA0B1F4F911 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Unsplash for RedMadRobot";
+			productName = "Unsplash for RedMadRobot";
+			productReference = 55E448A823B3A74E00B7EB70 /* Unsplash for RedMadRobot.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		55E448A023B3A74E00B7EB70 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1110;
+				LastUpgradeCheck = 1110;
+				ORGANIZATIONNAME = "Андрей Кальдяев";
+				TargetAttributes = {
+					55E448A723B3A74E00B7EB70 = {
+						CreatedOnToolsVersion = 11.1;
+					};
+				};
+			};
+			buildConfigurationList = 55E448A323B3A74E00B7EB70 /* Build configuration list for PBXProject "Unsplash for RedMadRobot" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 55E4489F23B3A74E00B7EB70;
+			productRefGroup = 55E448A923B3A74E00B7EB70 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				55E448A723B3A74E00B7EB70 /* Unsplash for RedMadRobot */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		55E448A623B3A74E00B7EB70 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				55E448B823B3A75400B7EB70 /* LaunchScreen.storyboard in Resources */,
+				55E448B523B3A75400B7EB70 /* Assets.xcassets in Resources */,
+				55E448B323B3A74E00B7EB70 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		719D6F64FA96BFA0B1F4F911 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Unsplash for RedMadRobot/Pods-Unsplash for RedMadRobot-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Unsplash for RedMadRobot/Pods-Unsplash for RedMadRobot-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Unsplash for RedMadRobot/Pods-Unsplash for RedMadRobot-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B9D406220A7616C9FB2CE584 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Unsplash for RedMadRobot-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		55E448A423B3A74E00B7EB70 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				55CECA4E23B6365500DF8CEA /* SearchResults.swift in Sources */,
+				55CFE25C23B5EC16003D5DAE /* LikesCollectionViewController.swift in Sources */,
+				55E448B023B3A74E00B7EB70 /* ViewController.swift in Sources */,
+				55B0B4A923C65FFF004B94B6 /* LikesCollectionViewCell.swift in Sources */,
+				55E448C823B4E52A00B7EB70 /* PhotosCollectionsViewController.swift in Sources */,
+				55E448C023B3A86D00B7EB70 /* NetworkServiceDailyPhoto.swift in Sources */,
+				55CECA4C23B635A200DF8CEA /* NetworkDataFetcher.swift in Sources */,
+				55CFE25E23B5F38F003D5DAE /* NetworkService.swift in Sources */,
+				55E448C523B3F56600B7EB70 /* MainTabBarController.swift in Sources */,
+				55F9FE0E23B6548100315361 /* PhotosCell.swift in Sources */,
+				55B0B4AD23C6674D004B94B6 /* UIKit + Extension.swift in Sources */,
+				55E448AC23B3A74E00B7EB70 /* AppDelegate.swift in Sources */,
+				55E448C223B3F49100B7EB70 /* PhotosCollectionViewController.swift in Sources */,
+				55E448AE23B3A74E00B7EB70 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		55E448B123B3A74E00B7EB70 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				55E448B223B3A74E00B7EB70 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		55E448B623B3A75400B7EB70 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				55E448B723B3A75400B7EB70 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		55E448BA23B3A75400B7EB70 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		55E448BB23B3A75400B7EB70 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		55E448BD23B3A75400B7EB70 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9FBF6DF7015D59A70D8C8849 /* Pods-Unsplash for RedMadRobot.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Unsplash for RedMadRobot/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "swift.Unsplash-for-RedMadRobot";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		55E448BE23B3A75400B7EB70 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 08E6ED32233F10AA79F6C295 /* Pods-Unsplash for RedMadRobot.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Unsplash for RedMadRobot/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "swift.Unsplash-for-RedMadRobot";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		55E448A323B3A74E00B7EB70 /* Build configuration list for PBXProject "Unsplash for RedMadRobot" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				55E448BA23B3A75400B7EB70 /* Debug */,
+				55E448BB23B3A75400B7EB70 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		55E448BC23B3A75400B7EB70 /* Build configuration list for PBXNativeTarget "Unsplash for RedMadRobot" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				55E448BD23B3A75400B7EB70 /* Debug */,
+				55E448BE23B3A75400B7EB70 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 55E448A023B3A74E00B7EB70 /* Project object */;
+}
