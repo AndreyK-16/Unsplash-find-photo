@@ -1,2 +1,2 @@
-# Unsplash-for-RedMadRobot
-тестовое задание для компании RedMadRobot
+# Unsplash-find-photo
+
